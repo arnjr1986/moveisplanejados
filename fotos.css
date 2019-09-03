@@ -1,0 +1,118 @@
+
+@font-face{
+	font-family: 'footlight-mt-light-1';
+	src: url("Fonts/footlight-mt-light-1.ttf");
+	font-size: 1em;
+}
+
+
+body{
+	background-color: rgb(4,4,4);
+}
+
+
+header {
+	width: 100%;
+	height: 250px;
+	background-color: rgb(4,4,4);
+	z-index: 2;
+	position: relative; 
+	color: #ecc354;
+	font-weight: bold;
+}
+
+
+header .container{ 
+
+	position: relative;
+}
+
+header #logotipo{
+	position: absolute;
+	left: -113px;
+	
+}
+
+
+header .float-left {
+	margin-top: -7px;
+    margin-bottom: -9px;
+    margin-left: 380px;
+}
+
+
+#menu li{
+	display: inline-block;
+		font-family: "footlight-mt-light-1";
+		margin-top: 200px;
+		font-size: 20px;
+	
+}
+#menuleft a{
+	font-family: "footlight-mt-light-1";
+	color: #ECC354;
+	font-size: 20px;
+	padding: 10px 25px;
+
+}
+
+#menu a{
+	color: #ECC354;
+	font-size: 22px;
+    padding: 10px 25px;
+    background-color: rgb(4,4,4);
+    margin-right: 37px;
+
+}
+
+
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(4,4,4);
+	z-index: 2;
+	position: relative;
+	
+}
+#imgn1, #imgn2, #imgn4,#imgn5{
+	width: 800px;
+	height: 400px;
+}
+
+
+footer .row{
+	width: 100%;
+}
+footer .row-rodap{
+	height: 80px; 
+	background-color: rgb(4,4,4); 
+	margin-right: 0px;
+	margin-left: -70px;
+}
+
+footer .row-rodap2{
+	height: 1px;
+	background-color: rgb(4,4,4);
+	border-top: #ecc345 4px solid;
+	margin-top: 26px;
+
+}
+
+footer .text-branco{
+	color: #fff;
+	margin-right: -150px;
+	font-size: 12px;
+	font-family: "footlight-mt-light-1";
+}
+
+.text-endereco, a {
+	color: #ecc354;
+	font-family: "footlight-mt-light-1";
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: -81px;
+	margin-right: -244px;
+
+}
+
